@@ -1,0 +1,32 @@
+Passo1: Criar o projeto no GIT
+
+Passo2: Instalar o Python
+
+Passo3: Instalar o PIP (Windows) 
+    - curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+    - python3 get-pip.py
+
+Passo3: Install virtualenv
+    - pip install virtualenv
+
+Passo4: Criar pasta com venv e ativar as variáveis
+    - python3 -m venv venv
+    - .\venv\Scripts\Activate (Windows)
+    - .\venv\bin\activate
+    # PARA DESATIVAR
+        - deactivate
+Passo5: Instalar o Django
+    - pip install django
+
+Passo6: Salvar as dependências do projeto no requirements.txt
+    -  pip freeze > requirements.txt
+
+Passo7: Iniciar nosso projeto Django
+    - django-admin startproject setup .
+
+Passo8: Iniciar o Servidor Web
+    - python .\manage.py runserver
+-------------------------------
+
+Variáveis de Ambiente
+    - pip install python-dotenv
