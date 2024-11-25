@@ -30,3 +30,14 @@ Passo8: Iniciar o Servidor Web
 
 Variáveis de Ambiente
     - pip install python-dotenv
+    - Criar o arquivo .env na raiz do projeto
+
+Dicas de .gitignore
+    - Acessar o site https://gitignore.io e colocar o django ou a linguagem que está sendo implementada.
+
+-------------------------------
+
+Criar um app 
+    - python manage.py startapp galeria
+    - EDITAR o SETUP/settings.py e adicionar o app galeria no INSTALLED_APPS
+    - EDITAR o galeria/views.py 
